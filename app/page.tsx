@@ -544,7 +544,7 @@ export default function Portfolio() {
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-accent" />
                   <a
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/manfred-powell-774755404"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 dark:text-gray-300 hover:text-accent underline-offset-4 hover:underline"
