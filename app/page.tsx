@@ -16,10 +16,11 @@ import {
   MapPin,
   Code,
   Brain,
-  Heart,
+  LayoutTemplate,
   Cloud,
-  Pen,
-  ListTodo,
+  Bot,
+  Scale,
+  Music,
 } from "lucide-react"
 
 type PortfolioProject = {
@@ -97,6 +98,16 @@ export default function Portfolio() {
 
   const projects: PortfolioProject[] = [
     {
+      title: "BWJP",
+      description:
+        "Civil and criminal justice responses to domestic and dating violence, sexual assault, stalking, and human trafficking.",
+      icon: Scale,
+      technologies: ["WordPress", "Google Cloud", "Cloudflare CDN", "Tailwind CSS"],
+      liveUrl: "https://bwjp.org/",
+      image: "/bwjp.png",
+    },
+
+    {
       title: "Weather Forecast",
       description:
         "Weather forecast app with engaging interactive elements and visualizations. Smart weather discovery platform.",
@@ -105,48 +116,33 @@ export default function Portfolio() {
       liveUrl: "https://weather-app-bay-three-17.vercel.app",
       image: "/weather.png",
     },
+
     {
-      title: "Taskflow",
+      title: "MUSIC Inc. Chicago",
       description:
-        "A modern, responsive todo app built with Next.js, TypeScript, and Tailwind CSS—focused on productivity and a polished daily task workflow.",
-      icon: ListTodo,
-      //badge: "Live",
-      technologies: ["React", "Productivity", "TypeScript", "Next.js", "Todo App", "Tailwind CSS", "Vercel"],
-      liveUrl: "https://taskflow-todo-app-woad.vercel.app",
-      image: "/taskflow.png",
+        "Empowering communities through music—MUSIC Inc. provides free music education to youth on Chicago's West Side, because music matters.",
+      icon: Music,
+      technologies: ["WordPress", "JavaScript", "Responsive UI", "E-commerce"],
+      liveUrl: "https://www.musicincchicago.org/",
+      image: "/musicinc.png",
     },
     {
-      title: "EchoGPT Frontend",
+      title: "AI Chatbot",
       description:
-        "Frontend for EchoGPT, a full-stack conversational AI app with a responsive chat UI, real-time streaming responses, and Firebase-powered authentication.",
-      icon: Brain,
-      technologies: ["React", "Vite", "Tailwind CSS", "Firebase", "Gemini API"],
-      liveUrl: "https://echo-gpt-lang-chain-frontend.vercel.app",
-      image: "/echogpt.png",
+        "Frontend for a conversational AI chatbot—a full-stack app with a responsive chat UI and real-time streaming responses, built with Next.js and JavaScript tooling.",
+      icon: Bot,
+      technologies: ["Next.js", "React", "JavaScript", "Vite", "ChatGPT API", "Streaming UI", "Tailwind CSS"],
+      liveUrl: "https://ai-chatbot.vercel.app",
+      image: "/ai-chatbot.png",
     },
     {
-      title: "Draftly",
+      title: "Next SaaS Starter",
       description:
-        "AI-powered blog writing agent that runs a multi-agent LangGraph pipeline with Tavily research, parallel writers, and export-ready outputs for multiple publishing platforms.",
-      icon: Pen,
-      technologies: ["Next.js", "React", "Tailwind CSS", "FastAPI", "LangGraph", "Tavily API", "OpenRouter"],
-      liveUrl: "https://draftly-woad.vercel.app",
-      image: "/draftly.png",
-    },
-    {
-      title: "Habit-a-Day",
-      description:
-        "TypeScript health assistant powered by a Claude chatbot for conversational nutrition and physical therapy guidance.",
-      icon: Heart,
-      badge: "Progress",
-      technologies: [
-        "TypeScript",
-        "Claude API",
-        "LLM Agents",
-        "Nutrition Guidance",
-      ],
-      liveUrl: "",
-      image: "/habitday.png",
+        "Simple Next.js SaaS starter scaffold and marketing UI—landing sections, feature blocks, and testimonials you can fork and adapt for a real product.",
+      icon: LayoutTemplate,
+      technologies: ["Next.js", "SaaS", "UI", "Tailwind CSS", "Vercel"],
+      liveUrl: "https://next-saas-starter.vercel.app/",
+      image: "/next-saas-starter.png",
     },
 
   ]
