@@ -122,7 +122,7 @@ export default function Portfolio() {
       description:
         "Empowering communities through music—MUSIC Inc. provides free music education to youth on Chicago's West Side, because music matters.",
       icon: Music,
-      technologies: ["WordPress", "JavaScript", "Responsive UI", "E-commerce"],
+      technologies: ["WordPress", "JavaScript", "Responsive UI"],
       liveUrl: "https://www.musicincchicago.org/",
       image: "/mucisinc.png",
     },
