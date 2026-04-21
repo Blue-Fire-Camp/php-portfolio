@@ -124,7 +124,7 @@ export default function Portfolio() {
       icon: Music,
       technologies: ["WordPress", "JavaScript", "Responsive UI", "E-commerce"],
       liveUrl: "https://www.musicincchicago.org/",
-      image: "/musicinc.png",
+      image: "/mucisinc.png",
     },
     {
       title: "AI Chatbot",
